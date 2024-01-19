@@ -1,3 +1,5 @@
+<?php include 'pages.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +13,10 @@
 <div class="header">
     <nav class="top-nav">
         <!-- Navigation links here -->
-        <a href="#" class="nav-link">Link 1</a>
+        <!-- <a href="#" class="nav-link">Link 1</a> -->
+        <?php foreach ($pages as $link):?>
+            <a href="<?php echo $link['link']; ?>" class="nav-link"><?php echo $link['title']; ?></a>
+        <?php endforeach; ?>
         <!-- More links -->
         <button class="menu-button">Menu</button>
     </nav>

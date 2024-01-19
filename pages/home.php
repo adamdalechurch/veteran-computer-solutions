@@ -17,7 +17,6 @@
             <a href="#" class="btn btn-primary">Learn More</a>
         </div>
     </div>
-    <!--card 2-->
 </div>
 
 <?php include 'footer.php'; ?>
