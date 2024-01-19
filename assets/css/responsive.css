@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+    .white-hyperlink {
+        background: rgba(255, 255, 255, 0.5);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .subheader {
+        height: 320px;
+    }
+
+    .page-header {
+        font-size: 24px;
+    }
+
+    .para {
+        font-size: 16px;
+    }
+}

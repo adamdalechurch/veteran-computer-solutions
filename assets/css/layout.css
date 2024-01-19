@@ -1,0 +1,14 @@
+.header {
+    flex-grow: 1;
+}
+
+.footer {
+    width: 100%;
+    max-width: 100%;
+    background-color: #014494;
+}
+
+.main-logo {
+    background: transparent;
+    margin-top: 20px;
+}
