@@ -1,9 +1,6 @@
 <?php 
 // Include header
 include 'header.php';
-
-// Handle form submission logic here
-
 ?>
 <link rel="stylesheet" href="assets/css/contact.css">
 <div class="form-container">

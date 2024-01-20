@@ -12,7 +12,6 @@
     flex-direction: column;
     max-width: 800px;
     margin: auto;
-    font-weight: 550;
     height: 100%;
     padding-top: 16px; /* Approximation of theme.spacing(2) */
 }
@@ -37,7 +36,6 @@
 }
 
 .para {
-    color: #000; /* Adjust this color to match theme.palette.black.main */
     margin-top: 10px;
     margin-bottom: 15px;
     font-size: 20px; /* Approximation of theme.spacing(2.5) */
@@ -53,7 +51,7 @@
 .submit-button {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #d32f2f; /* Adjust according to your secondary color */
+    background-color: #014494; /* Adjust according to your secondary color */
     color: white;
     border: none;
     border-radius: 4px;

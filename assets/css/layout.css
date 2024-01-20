@@ -68,6 +68,7 @@
     margin-left: 8px; /* Approximation of theme.spacing(1) */
     margin-right: 8px; /* Approximation of theme.spacing(1) */
     border-radius: 5px;
+    font-size: 18px; /* Approximation of theme.spacing(2) */
 }
 
 .info-box {
@@ -90,7 +91,13 @@
     font-size: 16px; /* Adjust font size as needed */
 }
 
-.main {
+.page-header {
+    font-size: 32px; /* Approximation of theme.spacing(4) */
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.main{
     min-height: calc(100vh - 64px - 56px); /* Adjust the value based on your header and footer height */
 }
 
@@ -106,15 +113,37 @@
     }
 }
 
+@media (max-width: 1024px) {
+    .card {
+        width: calc(100% / 2 - 20px) !important; /* Adjust the division value based on the number of cards per row */
+    }
 
+    .para {
+        font-size: 14px; /* Smaller font size on small screens */
+    }
+    .page-header {
+        font-size: 24px; /* Smaller font size on small screens */
+    }
+}
+.info-box-title {
+    text-align: center !important;
+}
 /* Responsive adjustments */
 /* @media (max-width: 600px) { */
 /* Media query for tablets: */
 @media (max-width: 768px) {
     .info-box-title {
         font-size: 24px; /* Smaller font size on small screens */
-        text-align: center;
     }
+
+
+    .para {
+        font-size: 14px; /* Smaller font size on small screens */
+    }
+
+.page-header {
+    font-size: 24px; /* Smaller font size on small screens */
+}   
 
     .card {
         width: calc(100% - 20px) !important; /* Adjust the division value based on the number of cards per row */

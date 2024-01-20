@@ -14,14 +14,6 @@
     background-color: #eeeeee; /* Darker grey color */
 }
 
-.page-header {
-    text-align: center;
-    color: #000; /* Replace with the actual color from theme.palette.black.main */
-    margin-top: 10px;
-    margin-bottom: 15px;
-    font-weight: 550;
-    font-size: 32px; /* Adjust as needed */
-}
 
 .separator {
     height: 4px; /* Half of theme.spacing(1) */
@@ -34,12 +26,4 @@
 
 .separator2 {
     height: 40px; /* theme.spacing(10) */
-}
-
-.para {
-    letter-spacing: 2px;
-    color: #000; /* Replace with the actual color from theme.palette.black.main */
-    margin-top: 10px;
-    margin-bottom: 15px;
-    font-size: 20px; /* Adjust as needed */
 }

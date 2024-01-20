@@ -4,7 +4,7 @@
 <div class="container">
     <h3 class="page-header">Business IT Support</h3>
     <p class="para">
-        <?php echo getenv("REACT_APP_SITE_NAME"); ?> offers IT Solutions for businesses and organizations of all sizes. Our experienced professionals have the knowledge to diagnose and resolve your IT issues efficiently and effectively, so you can get back to focusing on your business goals. With us, you can be sure your technology is working for you and will recognize opportunities to not only keep your business running efficiently, but also help take your organization to the next level.
+       Veteran Computer Solutions offers IT Solutions for businesses and organizations of all sizes. Our experienced professionals have the knowledge to diagnose and resolve your IT issues efficiently and effectively, so you can get back to focusing on your business goals. With us, you can be sure your technology is working for you and will recognize opportunities to not only keep your business running efficiently, but also help take your organization to the next level.
     </p>
     <div class="row">
         <?php 

@@ -3,43 +3,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>IT Consulting</title>
+<meta charset="UTF-8">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="keywords" content="Veteran Computer Solutions, technology, IT support, small businesses, medium-sized enterprises">
+    <meta property="og:locale" content="en_US">
+    <meta name="application-name" content="Veteran Computer Solutions">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Veteran Computer Solutions">
+    <meta name="subject" content="IT Solutions for Small and Medium-sized Businesses">
+    <meta name="description" content="At Veteran Computer Solutions, we believe that technology should enhance your life, not be frustrating. Our team of experienced IT professionals is dedicated to helping you get the most from your technology. We provide quality IT support for businesses, especially small and medium-sized enterprises, facing unique challenges. Our mission is to make your company stand out by leveraging the power of technology to help you achieve your business goals.">
+    <meta name="language" content="English">
+    <meta name="google-site-verification" content="<GOOGLE-SITE-VERIFICATION-CODE>">
+    <script src="https://www.google.com/recaptcha/api.js?render=<RECAPTCHA-V3-SITE-KEY>" async defer></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <link rel="manifest" href="assets/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Veteran Computer Solutions - Enhancing Your Business with Technology</title>
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/layout.css">
-    <link rel="stylesheet" href="assets/css/navigation.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/header.css">
-    
-    <!-- pages -->
     <link rel="stylesheet" href="assets/css/about.css">
-
-<style>
-.call-button {
-    background-color: #d32f2f;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin: 10px;
-    border: none;
-    border-radius: 4px;
-}
-
-.call-button:hover {
-    background-color: #9a0007;
-}
-
+    <style>
+        @font-face {
+            font-family: 'roboto,sans-serif Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('Martel Sans Regular'), local('MartelSans-Regular'), url(https://fonts.gstatic.com/s/martelsans/v6/h0GsssGi7VdzDgKjM-4d8hjYx-4.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        * {
+            font-family: 'Martel Sans', sans-serif !important;
+        }
+        body {
+            margin: 0;
+            overflow-x: hidden;
+            width: 100%;
+        }
+        .grecaptcha-badge {
+            visibility: hidden;
+        }
+        .call-button {
+            background-color: #d32f2f;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 10px;
+            border-radius: 4px;
+        }
+        .call-button:hover {
+            background-color: #9a0007;
+        }
 </style>
+<!-- Body content goes here -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RXPEP94WWH"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-RXPEP94WWH');
+</script>
 </head>
 <body>
 <div class="header">
