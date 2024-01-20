@@ -5,12 +5,17 @@ $path = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
 // Convert path to lowercase and replace hyphens with underscores
 $path = str_replace('-', '_', strtolower($path));
 
-// Construct the file path
-$filePath = __DIR__ . '/pages/' . $path . '.php';
+// Check for specific file requests like favicon.ico
+if ($path === 'favicon.ico') {
+    $filePath = __DIR__ . '/public/' . $path;
+} else {
+    // Construct the file path for other requests
+    $filePath = __DIR__ . '/pages/' . $path . '.php';
 
-// Default path for home
-if (empty($path)) {
-    $filePath = __DIR__ . '/pages/home.php';
+    // Default path for home
+    if (empty($path)) {
+        $filePath = __DIR__ . '/pages/home.php';
+    }
 }
 
 // Sanitize the file path
