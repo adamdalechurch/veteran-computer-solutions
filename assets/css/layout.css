@@ -58,3 +58,37 @@
     justify-content: flex-end;
 }
 
+.info-box, .info-box-alt {
+    padding: 16px; /* Adjust as needed */
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.info-box {
+    background-color: #e0e0e0; /* Main style background */
+}
+
+.info-box-alt {
+    background-color: #c0c0c0; /* Alternate style background */
+}
+
+.info-box-title {
+    color: #000;
+    font-weight: 550;
+    font-size: 32px; /* Adjust as needed */
+}
+
+.info-box-text {
+    color: #333;
+    font-size: 16px; /* Adjust as needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .info-box-title {
+        font-size: 24px; /* Smaller font size on small screens */
+        text-align: center;
+    }
+}
+
+

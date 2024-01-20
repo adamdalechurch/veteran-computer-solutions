@@ -28,11 +28,8 @@
             echo card(
                 'assets/image/business_continuity.webp', 
                 'Business Continuity & Disaster Recovery', 
-                'Business Continuity & Disaster Recovery', 
                 'Everything works great until it doesn\'t. We specialize in ensuring your systems are available when you need them while limiting business downtime.', 
             );
-
-            // Add more card function calls as needed
         ?>
     </div>
 </div>
