@@ -4,8 +4,15 @@
 <div class="container">
     <h3 class="page-header">PICKUP - REMOTE - IN-HOME SERVICE AVAILABLE</h3>
     <p class="para">
-        <?php echo getenv("REACT_APP_SITE_NAME"); ?> offers a comprehensive range of computer
-        repair services to help you get your home technology back up and running...
+        Veteran Computer Solutions offers a comprehensive range 
+        of computer repair services to help you get your home 
+        technology back up and running. From Virus Removal and 
+        Data Recovery to Hardware and Software Installation and Upgrade. 
+        Our computer repair service provides fast, reliable assistance
+        with a variety of hardware and software issues. We have the tools 
+        and know-how to diagnose any problem and provide the best solutions
+        reliably and quickly. No matter the size of the job, we’re here to
+        make sure your home technology is working for you.
     </p>
 
     <div class="row">
