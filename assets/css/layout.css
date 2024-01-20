@@ -95,6 +95,7 @@
     font-size: 32px; /* Approximation of theme.spacing(4) */
     font-weight: 550;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .main{

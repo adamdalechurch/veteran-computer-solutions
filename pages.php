@@ -18,11 +18,6 @@ $pages = [
         'showInMenu' => true
     ],
     [
-        'link' => '/about',
-        'title' => 'About',
-        'showInMenu' => true
-    ],
-    [
         'link' => '/business-support',
         'title' => 'Business Support',
         'showInMenu' => true
@@ -35,6 +30,11 @@ $pages = [
     [
         'link' => '/it-consulting',
         'title' => 'IT Consulting',
+        'showInMenu' => true
+    ],
+    [
+        'link' => '/about',
+        'title' => 'About',
         'showInMenu' => true
     ],
     [

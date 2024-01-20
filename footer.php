@@ -20,10 +20,12 @@
             </div>
         </div>
     </div>
-    <div class="copyright">
-        © <?php echo date('Y'); ?> Veteran Computer Solutions
-            <a href="https://www.facebook.com/veterancomputersolutions">
+    <div class="copyright" style="margin-top:12px">
+        <a href="https://www.facebook.com/veterancomputersolutions">
             <img src="assets/image/facebook.svg" alt="Facebook" class="social-media-icon">
         </a>
+    </div>
+    <div class="copyright">
+        © <?php echo date('Y'); ?> Veteran Computer Solutions
     </div>
 </div>
