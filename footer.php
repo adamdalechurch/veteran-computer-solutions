@@ -1,32 +1,29 @@
+</div> <!-- end of main -->
+<link rel="stylesheet" href="assets/css/footer.css">
+
 <div class="footer">
-    <div class="footer-content">
-        <!-- Footer links -->
-        <a href="path_to_route" class="link">Link 1</a>
-        <!-- Additional links -->
-
-        <!-- Avatar and policy links -->
-        <img src="/assets/image/vob.webp" alt="Avatar" class="avatar">
-        <div class="policy-links">
-            <a href="path_to_privacy_policy" class="white-hyperlink">Privacy Policy</a>
-            /
-            <a href="path_to_terms_of_service" class="white-hyperlink">Terms of Service</a>
-        </div>
-
-        <!-- Social Links -->
-        <!-- Include social media links or icons here -->
-
-        <!-- Copyright -->
-        <div class="copyright">
-            © <?php echo date("Y"); ?> Veteran Computer Solutions
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Bottom Menu -->
+                <div class="bottom-menu">
+                    <?php foreach ($pages as $link): if(!$link['showInMenu']) continue; ?>
+                        <a class="link" href="<?php echo $link['link']; ?>"><?php echo $link['title']; ?></a>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+            <div class="col-md-6" style='text-align:center'>
+                <img src="assets/image/vob.webp" alt="Veteran Owned Business" class="avatar">
+                <div class="policy-links">
+                    <a href="/privacy-policy" class="white-hyperlink">Privacy Policy</a> / <a href="/terms-of-service" class="white-hyperlink">Terms of Service</a>
+                </div>
+            </div>
         </div>
     </div>
+    <div class="copyright">
+        © <?php echo date('Y'); ?> Veteran Computer Solutions
+            <a href="https://www.facebook.com/veterancomputersolutions">
+            <img src="assets/image/facebook.svg" alt="Facebook" class="social-media-icon">
+        </a>
+    </div>
 </div>
-
-<script src="assets/js/main.js"></script>
-<!-- juqery cdn-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- bootstrap cdn-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</body>
-</html>

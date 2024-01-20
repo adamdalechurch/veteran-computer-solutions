@@ -90,6 +90,14 @@
     font-size: 16px; /* Adjust font size as needed */
 }
 
+.main {
+    min-height: calc(100vh - 64px - 56px); /* Adjust the value based on your header and footer height */
+}
+
+.separator2 {
+    height: 40px; /* theme.spacing(10) */
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
     .title {
@@ -111,4 +119,10 @@
     .card {
         width: calc(100% - 20px) !important; /* Adjust the division value based on the number of cards per row */
     }
+}
+
+.social-media-icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
 }

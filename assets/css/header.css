@@ -7,7 +7,9 @@
     align-items: center; /* Vertically center elements in the navbar */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
     z-index: 1; /* Optional: Makes navigation stay on top of other elements */
+    height: 64px;
 }
+
 
 .nav-link {
     color: white; /* Color of the navigation links */
@@ -84,9 +86,16 @@
     margin: 0; /* Removes default margin */
     font-weight: bold; /* Makes the title bold */
 }
-
+.nav-item{
+        background-color: #014494
+    }
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
+    .nav-item{
+        background-color: #014494 !important;
+        width: 50%;
+        padding: 12px 0;
+    }
     .subheader .container {
         flex-direction: column; /* Stacks logo and title vertically */
     }

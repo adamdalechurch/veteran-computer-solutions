@@ -18,31 +18,6 @@
     font-size: 16px;
 }
 
-.policy-links {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    width: 100%;
-    display: block;
-}
-
-.white-hyperlink {
-    color: white;
-    margin: 5px;
-    display: inline-block;
-}
-
-.white-hyperlink-mobile {
-    background: rgba(255, 255, 255, 0.5);
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.bottom-menu {
-    background: rgba(255, 255, 255, 0.5);
-    padding: 10px;
-    border-radius: 10px;
-}
 
 .img-card-top {
     width: 80%;
@@ -56,7 +31,9 @@
 }
 
 .avatar {
-    width: 64px;
+    text-align: center;
+    width: 164px;
     height: auto;
     margin: auto;
+    border: none;
 }

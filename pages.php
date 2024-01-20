@@ -1,6 +1,5 @@
 <?php
 
-// get all files from /pages and build a menu array:
 // $files = scandir('pages');
 // $menu = [];
 // foreach ($files as $page) {

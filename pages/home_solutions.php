@@ -47,6 +47,7 @@
             );
         ?>
     </div>
+    <div class="separator2"></div>
 </div>
 
 <?php include 'footer.php'; ?>

@@ -2,7 +2,7 @@
 <?php include 'templates/card.php'; ?>
 <?php include 'templates/infobox.php'; ?>
 
-<link rel="stylesheet" href="path/to/home.css">
+<link rel="stylesheet" href="assets/css/home.css">
 
 <div class="parallax-background">
     <div class="container">

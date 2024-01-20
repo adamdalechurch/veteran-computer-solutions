@@ -1,0 +1,90 @@
+/* Form Container Styles */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Form Styles */
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    font-weight: 550;
+    height: 100%;
+    padding-top: 16px; /* Approximation of theme.spacing(2) */
+}
+
+/* Input Field Styles */
+.input {
+    margin: 8px 0; /* Approximation of theme.spacing(1) */
+    background: white;
+    opacity: 0.8;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Typography Styles */
+.page-header {
+    text-align: center;
+    color: #000; /* Adjust this color to match theme.palette.black.main */
+    margin-bottom: 20px;
+    font-size: 32px; /* Approximation of theme.spacing(4) */
+    font-weight: 550;
+}
+
+.para {
+    color: #000; /* Adjust this color to match theme.palette.black.main */
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px; /* Approximation of theme.spacing(2.5) */
+}
+
+/* Alert Styles */
+.alert {
+    font-size: 32px; /* Approximation of theme.spacing(4) */
+    font-weight: bold;
+}
+
+/* Submit Button Styles */
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d32f2f; /* Adjust according to your secondary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #9a0007; /* Darker shade of your secondary color */
+}
+
+/* Snackbar Styles */
+.snackbar {
+    /* Adjust styles for the Snackbar */
+}
+
+/* Circular Progress Styles */
+.circular-progress {
+    /* Adjust styles for the Circular Progress */
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 600px) {
+    .page-header {
+        font-size: 24px; /* Approximation of theme.spacing(3) */
+    }
+    .para {
+        font-size: 16px; /* Approximation of theme.spacing(2) */
+    }
+    .form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

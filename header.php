@@ -16,17 +16,37 @@
     
     <!-- pages -->
     <link rel="stylesheet" href="assets/css/about.css">
+
+<style>
+.call-button {
+    background-color: #d32f2f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.call-button:hover {
+    background-color: #9a0007;
+}
+
+</style>
 </head>
 <body>
 <div class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">
-                <!-- Add your site logo here -->
-                <img src="path-to-your-logo.svg" alt="Logo" class="logo">
-            </a>
-            <button class="navbar-toggler menu-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler menu-button" onclick='toggleMobileMenu()' type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                &#9776;
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -37,6 +57,11 @@
                     <?php endforeach; ?>
                 </ul>
             </div>
+            <!-- call button that floats right -->
+            <button class="call-button" onclick="location.href='tel:727-232-4473'">
+                <span class="phone-number" style="color:white!important">&#9743;</span>
+                727-232-4473
+            </button>
         </div>
     </nav>
 
@@ -54,3 +79,15 @@
         </div>
     </div>
 </div>
+
+<script>
+function toggleMobileMenu() {
+    var x = document.getElementById("navbarNav");
+    if (x.className === "collapse navbar-collapse") {
+        x.className += " show";
+    } else {
+        x.className = "collapse navbar-collapse";
+    }
+}
+</script>
+<div class="main">
