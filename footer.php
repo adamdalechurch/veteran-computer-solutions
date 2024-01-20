@@ -5,7 +5,7 @@
         <!-- Additional links -->
 
         <!-- Avatar and policy links -->
-        <img src="path_to_avatar_image" alt="Avatar" class="avatar">
+        <img src="/assets/image/vob.webp" alt="Avatar" class="avatar">
         <div class="policy-links">
             <a href="path_to_privacy_policy" class="white-hyperlink">Privacy Policy</a>
             /

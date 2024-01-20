@@ -8,22 +8,21 @@
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/navigation.css">
-    <link rel="stylesheet" href="assets/css/subheader.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
-    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/header.css">
 </head>
 <body>
 <div class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
                 <!-- Add your site logo here -->
-                <img src="/path-to-your-logo.svg" alt="Logo" style="height: 40px;">
+                <img src="path-to-your-logo.svg" alt="Logo" class="logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler menu-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -37,11 +36,18 @@
             </div>
         </div>
     </nav>
+
     <div class="subheader">
         <!-- Subheader content -->
         <div class="container">
-            <h2>Welcome to Our IT Consulting Services</h2>
-            <p>Expert solutions for your business technology needs</p>
+            <div class="brand-container">
+                <div class="logo-container">
+                    <img src="assets/image/logo.svg" alt="Logo" class="logo">
+                </div>
+                <div class="title-container">
+                    <h2>Veteran Computer Solutions</h2>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -8,6 +8,11 @@ $path = strtolower($path);
 // Construct the file path
 $filePath = __DIR__ . '/pages/' . $path . '.php';
 
+// make path for home
+if ($path == '' || $path == '/') {
+    $filePath = __DIR__ . '/pages/home.php';
+}
+
 // Check if the file exists and is not a directory
 if (file_exists($filePath) && is_file($filePath)) {
     require $filePath;
