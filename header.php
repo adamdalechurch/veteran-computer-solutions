@@ -30,6 +30,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+    <!-- favicon is a png -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+
     <link rel="manifest" href="assets/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/images/ms-icon-144x144.png">
@@ -85,10 +89,10 @@
 <!-- Body content goes here -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RXPEP94WWH"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-RXPEP94WWH');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RXPEP94WWH');
 </script>
 </head>
 <body>
@@ -114,7 +118,6 @@ gtag('config', 'G-RXPEP94WWH');
             </button>
         </div>
     </nav>
-
     <div class="subheader">
         <!-- Subheader content -->
         <div class="container">

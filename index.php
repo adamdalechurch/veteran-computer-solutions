@@ -16,8 +16,6 @@ if (empty($path)) {
 // Sanitize the file path
 $filePath = sanitize($filePath);
 
-// Debugging: Output the file path and exit
-
 // Check if the file exists and is not a directory
 if (file_exists($filePath) && is_file($filePath)) {
     require $filePath;
