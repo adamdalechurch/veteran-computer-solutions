@@ -17,8 +17,12 @@
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    overflow: hidden; /* To ensure border-radius applies to children including images */
+    overflow: hidden;
     transition: box-shadow 0.3s ease-in-out;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    width: calc(100% / 3 - 20px) !important; /* Adjust the division value based on the number of cards per row */
 }
 
 .card:hover {
@@ -57,38 +61,54 @@
     display: flex;
     justify-content: flex-end;
 }
-
 .info-box, .info-box-alt {
-    padding: 16px; /* Adjust as needed */
-    margin: 8px;
+    padding: 16px; /* Approximation of theme.spacing(2) */
+    margin-top: 8px; /* Approximation of theme.spacing(1) */
+    margin-bottom: 8px; /* Approximation of theme.spacing(1) */
+    margin-left: 8px; /* Approximation of theme.spacing(1) */
+    margin-right: 8px; /* Approximation of theme.spacing(1) */
     border-radius: 5px;
 }
 
 .info-box {
-    background-color: #e0e0e0; /* Main style background */
+    background-color: #e0e0e0; /* Adjust this color to match theme.palette.grey.main */
 }
 
 .info-box-alt {
-    background-color: #c0c0c0; /* Alternate style background */
+    background-color: #c0c0c0; /* Adjust this color to match theme.palette.grey.secondary */
 }
 
-.info-box-title {
-    color: #000;
+.title {
+    color: #000; /* Adjust this color to match theme.palette.black.main */
     font-weight: 550;
-    font-size: 32px; /* Adjust as needed */
+    font-size: 32px; /* Approximation of theme.spacing(4) */
+    margin-bottom: 16px; /* Space below the title */
 }
 
-.info-box-text {
-    color: #333;
-    font-size: 16px; /* Adjust as needed */
+.para {
+    color: #000; /* Adjust this color if needed */
+    font-size: 16px; /* Adjust font size as needed */
 }
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
-    .info-box-title {
-        font-size: 24px; /* Smaller font size on small screens */
+    .title {
+        font-size: 24px; /* Approximation of theme.spacing(3) */
         text-align: center;
     }
 }
 
 
+/* Responsive adjustments */
+/* @media (max-width: 600px) { */
+/* Media query for tablets: */
+@media (max-width: 768px) {
+    .info-box-title {
+        font-size: 24px; /* Smaller font size on small screens */
+        text-align: center;
+    }
+
+    .card {
+        width: calc(100% - 20px) !important; /* Adjust the division value based on the number of cards per row */
+    }
+}

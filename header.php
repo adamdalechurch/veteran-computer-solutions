@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="assets/css/header.css">
     
     <!-- pages -->
-    <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/about.css">
 </head>
 <body>
@@ -31,7 +30,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <?php foreach ($pages as $link): ?>
+                    <?php foreach ($pages as $link): if(!$link['showInMenu']) continue; ?>
                         <li class="nav-item">
                             <a class="nav-link" href="<?php echo $link['link']; ?>"><?php echo $link['title']; ?></a>
                         </li>
