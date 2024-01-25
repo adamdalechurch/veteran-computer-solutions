@@ -13,8 +13,8 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Veteran Computer Solutions">
-    <meta name="subject" content="IT Solutions for Small and Medium-sized Businesses">
-    <meta name="description" content="At Veteran Computer Solutions, we believe that technology should enhance your life, not be frustrating. Our team of experienced IT professionals is dedicated to helping you get the most from your technology. We provide quality IT support for businesses, especially small and medium-sized enterprises, facing unique challenges. Our mission is to make your company stand out by leveraging the power of technology to help you achieve your business goals.">
+    <meta name="subject" content="IT Solutions that meet everyone's needs">
+    <meta name="description" content="Veteran Computer Solutions - Serving Home & Business Technology Needs">
     <meta name="language" content="English">
     <meta name="google-site-verification" content="<GOOGLE-SITE-VERIFICATION-CODE>">
     <script src="https://www.google.com/recaptcha/api.js?render=<RECAPTCHA-V3-SITE-KEY>" async defer></script>
