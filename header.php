@@ -5,7 +5,8 @@
 <head>
 <meta charset="UTF-8">
     <meta name="HandheldFriendly" content="True">
-    <meta name="keywords" content="Veteran Computer Solutions, technology, IT support, small businesses, medium-sized enterprises">
+    <meta name="keywords" content="Veteran Computer Solutions, computer repair services,  technology, IT support, small businesses, St Petersburg, Clearwater, Tampa Bay, IT consulting, cyber security">
+    <link rel:"canonical" href="https://veterancomputersolutions.com" />
     <meta property="og:locale" content="en_US">
     <meta name="application-name" content="Veteran Computer Solutions">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,7 +39,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/image/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <title>Veteran Computer Solutions - Enhancing Your Business with Technology</title>
+    <title>Veteran Computer Solutions - Serving Home and Business Technology Needs</title>
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
