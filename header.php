@@ -39,7 +39,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/image/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <title>Veteran Computer Solutions - Serving Home and Business Technology Needs</title>
+    <title>Veteran Computer Solutions - St Petersburg Computer Repair</title>
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/layout.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
