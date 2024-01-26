@@ -21,6 +21,7 @@
         <p class="para">
             Gary Starr is the owner of Veteran Computer Solutions.  He has over 30 years of IT experience ranging from starting as a beginner computer tech to an IT Director for 11 years. Gary has worked in various small and medium business sectors and understands that technology needs to be customized to each business. During the past 30 years, Gary has led several IT projects which include large upgrades and rollouts of new computers, servers, networks, websites, creating a new IT department & systems for a new company, and business operations.  He prides himself in being able to communicate effectively to each customer and stakeholder at their level so that they understand and embrace technology to its fullest.
         <br>
+            <br>
             In addition to being a seasoned IT professional, Gary is married to his beautiful wife and has 3 adult children and 1 grandson.  They also have 5 fur babies which include 3 dogs and 2 cats which all have Disney names.  Gary and his wife enjoy spending time at Disney, antiquing, and exploring Florida. He enjoys running and have participated in many races such as the Skyway 10K, Army Ten-Miler, and has completed the Dopey Challenge at Disney 4 times so far.  Gary is also a proud veteran of the US Army.
         </p>
     </div>
