@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://veterancomputersolutions.com/sitemap.xml
