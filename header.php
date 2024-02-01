@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
     <meta name="HandheldFriendly" content="True">
-    <meta name="keywords" content="Veteran Computer Solutions, computer repair services,  technology, IT support, small businesses, St Petersburg, Clearwater, Tampa Bay, IT consulting, cyber security">
+    <meta name="keywords" content="Veteran Computer Solutions, computer repair services, computer repair, technology, IT support, small businesses, St Petersburg, Clearwater, Tampa Bay, IT consulting, cyber security">
     <link rel:"canonical" href="https://veterancomputersolutions.com" />
     <meta property="og:locale" content="en_US">
     <meta name="application-name" content="Veteran Computer Solutions">
@@ -13,8 +13,8 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Veteran Computer Solutions">
-    <meta name="subject" content="IT Solutions that meet everyone's needs">
-    <meta name="description" content="Veteran Computer Solutions - Serving Home & Business Technology Needs">
+    <meta name="subject" content="Computer Repair and Full IT Services">
+    <meta name="description" content="Veteran Computer Solutions - Serving Home & Business Technology Needs & Computer Repair">
     <meta name="language" content="English">
     <meta name="google-site-verification" content="<GOOGLE-SITE-VERIFICATION-CODE>">
     <script src="https://www.google.com/recaptcha/api.js?render=<RECAPTCHA-V3-SITE-KEY>" async defer></script>
