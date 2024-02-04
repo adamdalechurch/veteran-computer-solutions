@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
     <meta name="HandheldFriendly" content="True">
     <meta name="keywords" content="Veteran Computer Solutions, computer repair services, computer repair, technology, IT support, small businesses, St Petersburg, Clearwater, Tampa Bay, IT consulting, cyber security">
-    <link rel:"canonical" href="https://veterancomputersolutions.com" />
+    <link rel="canonical" href="https://veterancomputersolutions.com<?php echo $canonical ?>">
     <meta property="og:locale" content="en_US">
     <meta name="application-name" content="Veteran Computer Solutions">
     <meta name="viewport" content="width=device-width, initial-scale=1">
